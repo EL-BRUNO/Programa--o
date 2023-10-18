@@ -1,0 +1,202 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  margin-top: 44px;
+  margin-left: 76px;
+}
+
+.links {
+  margin-right: 26px;
+  text-decoration: none;
+  cursor: pointer;
+  width: 79px;
+  height: 29px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  text-align: left;
+  color: #989d9c;
+}
+
+.links:hover {
+  text-decoration: underline;
+  text-decoration-color: #2f9ceb;
+  opacity: 0.6;
+}
+
+.links:active {
+  opacity: 0.9;
+}
+
+.meu-botao {
+  width: 130px;
+  height: 41px;
+  border-radius: 50px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  background: #665ae1;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.meu-botao:hover {
+  opacity: 0.6;
+}
+
+.meu-botao:active {
+  opacity: 0.8;
+}
+
+img {
+  position: absolute;
+  width: 568px;
+  height: 500px;
+  margin: 144px 0 183px 125px;
+}
+
+h1 {
+  width: 513px;
+  height: 122px;
+  font-size: 100px;
+  font-weight: 900;
+  line-height: 122px;
+  text-align: left;
+  color: #515151;
+  margin-bottom: 0px;
+}
+
+h2 {
+  width: 448px;
+  height: 71px;
+  font-size: 58px;
+  font-weight: 500;
+  line-height: 71px;
+  text-align: left;
+  color: #515151;
+  margin-top: 0;
+}
+
+p {
+  width: 515px;
+  height: 87px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: left;
+  color: #848484;
+  margin-top: 32px;
+  margin-bottom: 65px;
+}
+
+.outro-botao {
+  width: 239px;
+  height: 64px;
+  border-radius: 50px;
+  border: none;
+  background: #adff00;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  cursor: pointer;
+  position: relative;
+  margin-top: 120px;
+}
+
+.outro-botao:hover {
+  opacity: 0.6;
+}
+
+.outro-botao:active {
+  opacity: 0.8;
+}
+
+.container {
+  display: inline-block;
+  margin-left: 805px;
+  position: absolute;
+  margin-top: 138px;
+}
+
+@media screen and (max-width: 900px) {
+  header {
+    display: none;
+  }
+
+  p {
+    display: none;
+  }
+
+  img {
+    width: 354px;
+    height: 317px;
+    position: absolute;
+    margin: 149px 22px 24px 14px;
+  }
+
+  .container {
+    position: absolute;
+    margin-bottom: 0;
+    bottom: 185px;
+    right: 61px;
+  }
+
+  h1 {
+    width: 263px;
+    height: 52px;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 61px;
+    text-align: left;
+  }
+
+  h2 {
+    width: 232px;
+    height: 37px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 37px;
+    text-align: left;
+  }
+
+  .outro-botao {
+    margin-top: 17px;
+    width: 239px;
+  }
+}
+
+
+@media screen and (max-width:375px) {
+    .container {
+        position: absolute;
+        margin-bottom: 0;
+        bottom: 40px;
+        right: 46px;
+      }
+}
+
+@media screen and (max-width:320px) {
+    .container {
+        position: absolute;
+        margin-bottom: 0;
+        top: 330px;
+        right: 0px;
+      }
+}
+
+@media screen and (max-width:280px  ) {
+    .container {
+        position: absolute;
+        margin-bottom: 0;
+        top: 370px;
+        right: 10px;
+      }
+}
